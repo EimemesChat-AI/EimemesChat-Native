@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230417181657",
+    "project_id": "chat-eimeme",
+    "storage_bucket": "chat-eimeme.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230417181657:android:577c478074c10436f387c8",
+        "android_client_info": {
+          "package_name": "com.eimemes.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230417181657-7v30t8ogq03broga9p676p3f9lltng1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBAw2643r9q4mKpFU2uUUiCpu7Fzb287w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230417181657-7v30t8ogq03broga9p676p3f9lltng1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
