@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:paddingTop="80dp"
+        android:paddingBottom="48dp">
+
+        <!-- App title with gradient (applied in code) -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EimemesChat AI"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/accent"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in to continue"
+            android:textSize="15sp"
+            android:textColor="@color/text2"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- Email input -->
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/text1"
+            android:textColorHint="@color/text3"
+            android:textSize="15sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Password input -->
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/text1"
+            android:textColorHint="@color/text3"
+            android:textSize="15sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginBottom="20dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Sign In button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Sign In"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/bg"
+            android:background="@drawable/btn_primary"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Sign Up button -->
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Create Account"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/bg"
+            android:background="@drawable/btn_primary"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Sign up"
+            android:textSize="14sp"
+            android:textColor="@color/accent"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="64dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text1"
+            android:textSize="15sp"
+            android:lineSpacingMultiplier="1.5"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/bubble_ai"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="@color/text3"
+            android:paddingTop="3dp"
+            android:paddingStart="2dp"/>
+
+        <!-- Disclaimer — shown only for critical topics -->
+        <TextView
+            android:id="@+id/tvDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚠️ For reference only. Verify with a qualified professional."
+            android:textSize="11sp"
+            android:textColor="@color/text3"
+            android:paddingTop="4dp"
+            android:paddingStart="4dp"
+            android:paddingBottom="2dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</LinearLayout>
